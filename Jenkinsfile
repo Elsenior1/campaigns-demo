@@ -32,7 +32,7 @@ pipeline {
         }
         stage('run container') {
           steps {
-            sh 'docker run -d --name campaign-demo-server --label campaign-demo-server -p 5000:5000 Elsenior1/campaign-demo:v1'
+            sh 'docker run -d --name campaign-demo-server --label campaign-demo-server -p 5000:5000 nestoralvval/campaign-demo:v1'
           }
         }
     }
