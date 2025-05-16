@@ -1,4 +1,4 @@
-•	pipeline {
+pipeline {
     agent {
         node {
         label 'dockerhost-build-server'
